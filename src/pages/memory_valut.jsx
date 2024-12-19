@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const mv = () => {
+const Mv = () => {
 
     return(
         <>
@@ -9,4 +9,4 @@ const mv = () => {
         </>
     );
 }
-export default mv;
+export default Mv;

@@ -5,12 +5,19 @@ const Home = () => {
   return (
     <div>
       <h1>Welcome to the Home Page</h1>
-      <p>Explore our website:</p>
-      <ul>
-        <li><Link to="/inovation_atlas.jsx">IA</Link></li>
-        <li><Link to="/memory_valut.jsx">mv</Link></li>
-        <li><Link to="/blog.jsx">blog</Link></li>
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/inovation_atlas">Inovation Atlas</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/memory_valut">Memory Vault</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 };
